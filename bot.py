@@ -1,7 +1,12 @@
 # These are the dependecies. The bot depends on these to function, hence the name. Please do not change these unless your adding to them, because they can break the bot.
 import discord
 import asyncio
-from discord.ext.commands import Bot
+import random
+import logging
+import math
+import json
+import sqlite3
+import os
 from discord.ext import commands
 import platform
 
