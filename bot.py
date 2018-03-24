@@ -33,7 +33,7 @@ embed.set_author(name="Author Name", url="http://icons.iconarchive.com/icons/pao
 embed.set_thumbnail(url="http://icons.iconarchive.com/icons/paomedia/small-n-flat/256/sign-check-icon.png")
 embed.add_field(name=Field, value=1, inline=False)
 embed.add_field(name=Field, value=2, inline=True)
-await self.bot.say(embed=embed)
+await client.say(embed=embed)
 	
 	
 client.run('MzUxMzk5Nzc0MDUxODkzMjU5.DZesqA.KZE8ZtbMusm3Q0dD5fhRb4Sn6RU')
