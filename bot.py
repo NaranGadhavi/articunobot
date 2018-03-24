@@ -32,14 +32,12 @@ async def ping(*args):
 	await client.say(":ping_pong: Pong!")
 	# After you have modified the code, feel free to delete the line above so it does not keep popping up everytime you initiate the ping commmand.
 	
-@client.event
-async def on_message(message):
-    if message.content.startswith('.image'):
-        embed = discord.Embed(title="Tile", description="Desc", color=0x00ff00)
-        embed.add_field(name="Fiel1", value="hi", inline=False)
-        embed.add_field(name="Field2", value="hi2", inline=False)
-        await client.send_message(message.channel, embed=embed)
-	
+@client.command()
+async def baby(*args):
+
+	await client.say(":smile: Sir!")
+	# After you have modified the code, feel free to delete the line above so it does not keep popping up everytime you initiate the ping commmand.
+		
 	
 	
 client.run('MzUxMzk5Nzc0MDUxODkzMjU5.DZesqA.KZE8ZtbMusm3Q0dD5fhRb4Sn6RU')
