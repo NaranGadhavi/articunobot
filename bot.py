@@ -26,14 +26,6 @@ async def ping(*args):
 	await client.say(":ping_pong: Pong!")
 	# After you have modified the code, feel free to delete the line above so it does not keep popping up everytime you initiate the ping commmand.
 	
-async def image(*args):
-
-embed=discord.Embed(title="title", url="https://newcon-themexpose.blogspot.in/", description="desc", color=0x86e6f0)
-embed.set_author(name="Author Name", url="http://icons.iconarchive.com/icons/paomedia/small-n-flat/256/sign-check-icon.png",, icon_url="http://icons.iconarchive.com/icons/paomedia/small-n-flat/256/sign-check-icon.png")
-embed.set_thumbnail(url="http://icons.iconarchive.com/icons/paomedia/small-n-flat/256/sign-check-icon.png")
-embed.add_field(name=Field, value=1, inline=False)
-embed.add_field(name=Field, value=2, inline=True)
-await client.say(embed=embed)
 	
 	
 client.run('MzUxMzk5Nzc0MDUxODkzMjU5.DZesqA.KZE8ZtbMusm3Q0dD5fhRb4Sn6RU')
