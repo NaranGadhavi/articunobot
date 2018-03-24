@@ -12,7 +12,7 @@ from discord.ext import commands
 import platform
 
 # Here you can modify the bot's prefix and description and wether it sends help in direct messages or not.
-client = Bot(description="Basic Bot by Dlaize", command_prefix=".", pm_help = False)
+client = Bot(description="Articuno Bot by Dlaize", command_prefix=".", pm_help = False)
 
 
 # Do not mess with it because the bot can break, if you wish to do so, please consult me or someone trusted.
@@ -31,6 +31,14 @@ async def ping(*args):
 
 	await client.say(":ping_pong: Pong!")
 	# After you have modified the code, feel free to delete the line above so it does not keep popping up everytime you initiate the ping commmand.
+	
+async def image(*args):
+
+	embed = discord.Embed(title="Help!", description="Basically, this is how I'm used.", color=0x00a0ea)
+    embed.add_field(name="{}embed".format(prefix), value="Creates a quick embed with the users input after the command is called.")
+    embed.add_field(name="{}rembed".format(prefix), value="Let's you embed with more user input. After entering your message the bot will ask questions about the color and thumbnail.")
+    embed.set_footer(text="Embed-This!")
+    await bot.say(embed=embed)
 	
 	
 	
