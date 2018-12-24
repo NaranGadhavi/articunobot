@@ -40,7 +40,7 @@ async def baby(*args):
 		
 	
 	
-client.run('MzUxMzk5Nzc0MDUxODkzMjU5.DZesqA.KZE8ZtbMusm3Q0dD5fhRb4Sn6RU')
+client.run('NTI0MTI1NTEyODA1NjQ2MzM5.DwJGJg.X2F0foRGZcSB2eu_gG-fM6_II2c')
 
 
 # The help command is currently set to be not be Direct Messaged.
