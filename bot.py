@@ -12,7 +12,7 @@ from discord.ext import commands
 import platform
 
 # Here you can modify the bot's prefix and description and wether it sends help in direct messages or not.
-client = Bot(description="Articuno Bot by Dlaize", command_prefix=".", pm_help = True)
+client = Bot(description="Articuno Bot by Dlaize", command_prefix=".", pm_help = False)
 
 
 # Do not mess with it because the bot can break, if you wish to do so, please consult me or someone trusted.
